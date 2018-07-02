@@ -1,0 +1,55 @@
+
+h1 {
+     color: rgb(0, 0, 0);
+     font-family: COPASETIC;
+     font-size: 70pt;
+     letter-spacing: 10px
+}
+
+body {
+    background-color: white;
+    font-family: COPASETIC;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+@font-face {
+    font-family: COPASETIC;
+    src: url(/COPASETI.TTF);
+}
+
+@font-face {
+    font-family: ardeco;
+    src: url(ardeco.ttf);
+}
+
+.city-weather {
+    font-size: 18pt;
+    font-family: ardeco;
+    letter-spacing: 3px;
+    line-height: 50pt;
+}
+
+ input.city-input {
+    border: double;
+    padding: 5px;
+    font-size: 24px;
+    font-family: ardeco;
+}
+
+button.get-weather-button {
+    font-family: inherit;
+    font-size: 17pt;
+    padding: 10px 24px;
+    background-color: white;
+    position: inherit;
+}
+
+.my-image {
+    max-width: 50%
+}
+
+.hidden {
+    display: none;
+}
